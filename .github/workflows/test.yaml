@@ -1,6 +1,7 @@
 name: Test
 
-pull_requests: write
+permissions:
+  pull-requests: write
 
 on:
   push:
