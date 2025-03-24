@@ -1,8 +1,5 @@
 name: Test
 
-permissions:
-  pull-requests: write
-
 on:
   push:
     branches:
@@ -16,6 +13,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - name: Test
