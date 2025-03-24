@@ -1,5 +1,7 @@
 name: Test
 
+pull_requests: write
+
 on:
   push:
     branches:
