@@ -23,4 +23,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           comment-title: Test Results
           results-path: ./files/success/*.trx
+          coverage-path: ./files/success/test_coverage_cobertura.xml
+          coverage-type: cobertura
           allow-failed-tests: true
